@@ -1,9 +1,14 @@
 import "./Cards.css";
+import "../../img/crecimiento.png"
+import "../../img/Precio.png"
 
-export default function Cards({ Props }) {
+export default function Cards(props) {
   return (
-    <li>
-      <h3>{title}</h3>
-    </li>
+    <div className="tarjetas" id="tarjeta1">
+<h3>{props.titulo}</h3>
+
+    </div>
+      
+ 
   );
 }

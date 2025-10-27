@@ -1,0 +1,9 @@
+.tarjetas {
+  border: black solid 1px;
+  float: left;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 2%;
+}
