@@ -1,9 +1,55 @@
 .tarjetas {
   border: black solid 1px;
-  float: left;
   width: 30%;
   height: 100%;
   overflow: hidden;
-  text-align: center;
   margin-left: 2%;
+  text-align: center;
+  align-content: center;
+  float: left;
+
+}
+
+.tituloDeTarjeta {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    width: 100%;
+
+
+}
+
+.tituloDeTarjeta > h3{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.imagenDeTarjeta{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+.imagenDeTarjeta {
+   opacity: 0.9;
+}
+
+
+.tarjetas:hover > .imagenDeTarjeta {
+   transform: translateY(-90%);
+   transition: 1s;
+}
+
+
+.tarjetas:hover > .tituloDeTarjeta {
+    color: black;
+    transition: 1s;
 }
