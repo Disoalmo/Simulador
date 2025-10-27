@@ -6,6 +6,9 @@ import Header from "./assets/Components/Header/Header";
 import Main from "./assets/Components/Main/Main";
 import Cards from "./assets/Components/Cards/Cards";
 
+import crecimiento from "./assets/img/crecimiento";
+import precios from "./assets/img/precios";
+
 
 function App() {
   return (
@@ -15,9 +18,17 @@ function App() {
         
       </Main>
       <section id="seccion">
-        <Cards titulo="Elige el tipo de inversion"></Cards>
-        <Cards titulo="Analiza e invierte!"></Cards>
-        <Cards titulo="Maneja tu carpeta de inversión"></Cards>
+        <Cards 
+        titulo="Elige el tipo de inversion" 
+        img={crecimiento}
+        ></Cards>
+        <Cards 
+        titulo="Analiza e invierte!"
+        img={precios}
+        ></Cards>
+        <Cards 
+        titulo="Maneja tu carpeta de inversión"
+        ></Cards>
       </section>
     </div>
   );
