@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./assets/Components/Header/Header";
 import Main from "./assets/Components/Main/Main";
 import Cards from "./assets/Components/Cards/Cards";
+import Buttons from "./assets/Components/Buttons/Buttons";
 
 import crecimiento from "./assets/img/crecimiento.png"
 import precios from "./assets/img/Precios.png"
@@ -14,7 +15,9 @@ function App() {
   return (
     <div id="contenido">
       <Header></Header>
-      <Main></Main>
+      <Main>
+      </Main>
+      <Buttons></Buttons>
       <section id="seccionDeSeparacion"><h3>Inrementa tu dinero!</h3></section>
       <section id="seccionDeDescripcion">
         <Cards 
@@ -30,6 +33,7 @@ function App() {
         img={carpeta}
         ></Cards>
       </section>
+      <section id="innecesario"></section>
     </div>
   );
 }
