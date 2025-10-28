@@ -2,8 +2,8 @@ import "./Buttons.css"
 
 export default function Buttons(props) {
     return (
-        <div>
-            <p>boton</p>
+        <div id="divBoton">
+            <button className="botones">{props.children}</button>
         </div>
     )
 }

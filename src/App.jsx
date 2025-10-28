@@ -14,16 +14,19 @@ import carpeta from "./assets/img/carpeta.jpg"
 function App() {
   return (
     <div id="contenido">
+      
       <Header></Header>
       <Main>
+
       </Main>
-      <Buttons></Buttons>
+      <Buttons><a href="">Registrarme</a></Buttons>
+      <Buttons><a href="">Iniciar sesión</a></Buttons>
       <section id="seccionDeSeparacion"><h3>Inrementa tu dinero!</h3></section>
       <section id="seccionDeDescripcion">
         <Cards 
         title="Elige el tipo de inversion"
         img={crecimiento}
-        ></Cards>
+        > <Buttons><a href="">Registrarme</a></Buttons> </Cards>
         <Cards 
         title="Analiza el mercado"
         img={precios}
@@ -35,6 +38,7 @@ function App() {
       </section>
       <section id="innecesario"></section>
     </div>
+
   );
 }
 
