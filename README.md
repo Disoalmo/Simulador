@@ -5,7 +5,7 @@ Un sitio web frontend en React para permitir simular inversiones con uso de dine
 ### Características
 - **Pagina inicial**- Vista de información general sobre el sitio
 - **Autenticación** – Registro y log in para validar al usuario
-- **Vista de empresas **- Explorar empresas en la bolsa para compra y venta de acciones
+- **Vista de empresas**- Explorar empresas en la bolsa para compra y venta de acciones
 - **Precios dinámicos**- Actualización y visualización de precios de acciones en tiempo real
 - **Graficas y temporalidades** - Ver graficas en distinta temporalidad del cambio de precios en empresas
 - **Carpeta de inversión** – Visualización de las acciones obtenidas por el usuario, historial y ganancias
@@ -13,7 +13,7 @@ Un sitio web frontend en React para permitir simular inversiones con uso de dine
 - **Datos en Tiempo Real** – Actualizacion continua de ganancias y perdidas de acuerdo con la dinámica de precios 
 
 ### Estilos
-- ** CSS Personalizado** - Diseño personalizado con temática financiera
+- **CSS Personalizado** - Diseño personalizado con temática financiera
 - **Variables CSS** - Tematización consistente en toda la aplicación
 - **Paleta Profesional** - Esquema de colores financiera que genera seguridad y elegancia
 
@@ -21,8 +21,8 @@ Un sitio web frontend en React para permitir simular inversiones con uso de dine
 Node.js 18+ y npm
 
 **Instalación de Node.js y npm**
-Si aún no tienes Node.js instalado, sigue estas instrucciones:
 
+Si aún no tienes Node.js instalado, sigue estas instrucciones:
 Opción 1: Instalación Oficial (Recomendado para principiantes)
 
 **1.Descargar Node.js:**
