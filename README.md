@@ -23,7 +23,6 @@ Node.js 18+ y npm
 **Instalación de Node.js y npm**
 
 Si aún no tienes Node.js instalado, sigue estas instrucciones:
-Opción 1: Instalación Oficial (Recomendado para principiantes)
 
 **1.Descargar Node.js:**
 
